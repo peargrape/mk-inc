@@ -54,6 +54,10 @@ body {
   background-image: url("img/icon-phone-header.svg");
 }
 
+.header-copyright {
+  padding-left: 25px;
+}
+
 .hero-image {
   position: relative;
   height: 564px;
@@ -106,8 +110,8 @@ body {
 }
 
 .intro .subheading {
-  position: absolute;
-  top: -320px;
+  position: relative;
+  top: -80px;
   left: 48px;
   font-size: 16px;
   line-height: 32px;
@@ -133,8 +137,8 @@ body {
 }
 
 .user-image img {
-  width: 688px;
-  height: 400px;
+  width: 250px;
+  /* height: 400px; */
   margin-left: 16px;
   object-fit: cover;
 }
@@ -143,13 +147,13 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   margin: 0 120px 160px;
   min-height: 400px;
 }
 
 .intro .user-image + div {
-  margin-left: 600px;
+  margin-left: 300px;
 }
 
 .intro .container > div::before,
@@ -279,10 +283,21 @@ body {
 
 .portfolio {
   margin: 0 0 208px;
+  padding: 50px;
+  /* margin: 0 0 160px;
+  padding-top: 240px;
+  padding-bottom: 80px;
+  background-color: #fafbfd; */
 }
 
 .portfolio .subheading {
   margin-bottom: 80px;
+  /* position: relative;
+  top: -80px;
+  left: 48px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222; */
 }
 
 .projects {
@@ -342,8 +357,9 @@ body {
 
 .project-image {
   z-index: 1;
-  position: absolute;
+  position: relative;
   margin: 0;
+  margin-bottom: 30px;
   top: 0;
   left: 0;
 }
@@ -370,11 +386,12 @@ body {
 
 .button {
   position: relative;
-  margin: auto 72px -10px;
+  margin: auto 72px 20px;
   padding: 10px 0 10px 28px;
+  width: 450px;
   display: block;
   font-size: 20px;
-  letter-spacing: 0.5px;
+  letter-spacing: .5px;
   text-decoration: none;
   text-transform: uppercase;
   color: #8da2ed;
@@ -387,7 +404,7 @@ body {
   width: 20px;
   height: 20px;
   top: 14px;
-  left: 29px;
+  left: 5px;
   background-image: url("img/icon-open-page.svg");
 }
 
@@ -444,4 +461,8 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.copyright {
+  padding-left: 25px;
 }
